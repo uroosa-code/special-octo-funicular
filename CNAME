@@ -1,1 +1,122 @@
 ummiparathas.co.in
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ummi Parathas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff8f1;
+      color: #4a3b2f;
+    }
+    header {
+      background-color: #f4a261;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-style: italic;
+      margin: 0.5rem 0 0;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .menu-item {
+      background-color: #ffffff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .menu-item h3 {
+      margin: 0 0 0.5rem;
+    }
+    .contact {
+      background-color: #264653;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .footer {
+      background-color: #e9c46a;
+      text-align: center;
+      padding: 1rem;
+    }
+    a {
+      color: #f4a261;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ummi Parathas</h1>
+    <p>Lets you eat better</p>
+  </header>  <section class="section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h3>Aloo Masala – ₹75</h3>
+        <p>Classic spiced mashed potatoes in a crisp fold</p>
+      </div>
+      <div class="menu-item">
+        <h3>Keema Loaded – ₹115</h3>
+        <p>Juicy minced meat with house spices</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cheese Corn – ₹85</h3>
+        <p>Melty cheese and sweet corn hug</p>
+      </div>
+      <div class="menu-item">
+        <h3>Egg Paratha – ₹85</h3>
+        <p>Buttery flatbread with fluffy fried egg</p>
+      </div>
+      <div class="menu-item">
+        <h3>Nutella Bomb – ₹99</h3>
+        <p>Sweet, rich & ridiculously satisfying</p>
+      </div>
+      <div class="menu-item">
+        <h3>Gur & Coconut – ₹85</h3>
+        <p>Jaggery, coconut, and ghee magic</p>
+      </div>
+      <div class="menu-item">
+        <h3>Plain Paratha – ₹35</h3>
+        <p>Flaky, layered whole wheat flatbread</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chapati – ₹30</h3>
+        <p>Soft, homestyle whole wheat roti</p>
+      </div>
+    </div>
+  </section>  <section class="section">
+    <h2>Sides & Drinks</h2>
+    <ul>
+      <li>Mint Raita – ₹25</li>
+      <li>Pickle – ₹15</li>
+      <li>Masala Chai – ₹30</li>
+      <li>Lassi – ₹35</li>
+      <li>Water – ₹10</li>
+    </ul>
+  </section>  <section class="contact">
+    <h2>Order Now</h2>
+    <p>📞 WhatsApp: +91-7330979830</p>
+    <p>📍 Hyderabad, India | <a href="https://instagram.com/ummisparathas" target="_blank">@ummisparathas</a></p>
+    <p>Scan the QR on your delivery box to view menu & reorder easily!</p>
+  </section>  <div class="footer">
+    <p>&copy; 2025 Ummi Parathas. All rights reserved.</p>
+  </div>
+</body>
+</html>
